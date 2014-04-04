@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl"?>
+<?xml-stylesheet type="text/css" href="documento.css"?>
+<documento>
+  <titulo>Documentación sobre ...</titulo>
+  <seccion>
+    <titulo>Primera sección</titulo>
+    <parrafo>Este es el primer párrafo de la primera sección</parrafo>
+    <seccion>
+      <titulo>Primera subsección de la primera sección</titulo>
+      <parrafo>Este es el primer párrafo de la primera subsección de la
+      primera sección.</parrafo>
+      <parrafo>Este es el segundo párrafo de la primera subsección de la
+      primera sección</parrafo>
+    </seccion>
+    <seccion>
+      <titulo>Segunda subsección de la primera sección</titulo>
+      <parrafo>Este es el primer párrafo de la segunda subsección de la
+      primera sección</parrafo>
+      <parrafo>Este es el segundo párrafo de la segunda subsección de la
+      primera sección</parrafo>
+    </seccion>
+  </seccion>
+  <seccion>
+    <titulo>Segunda sección</titulo>
+    <parrafo>Este es el primer párrafo de la segunda sección</parrafo>
+    <seccion>
+      <titulo>Primera subsección de la segunda sección</titulo>
+      <parrafo>Este es el primer párrafo de la primera subsección de la
+      segunda sección</parrafo>
+      <parrafo>Este es el segundo párrafo de la primera subsección de la
+      segunda sección</parrafo>
+    </seccion>
+    <seccion>
+      <titulo>Segunda subsección de la primera sección</titulo>
+      <parrafo>Este es el primer párrafo de la segunda subsección de la
+      segunda sección</parrafo>
+      <parrafo>Este es el segundo párrafo de la segunda subsección de la
+      segunda sección</parrafo>
+    </seccion>
+  </seccion>
+</documento>

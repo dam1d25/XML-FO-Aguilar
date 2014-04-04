@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="first-page">
+      <fo:region-body margin="1in" background-color="yellow"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="all-pages">
+      <fo:region-body margin="1in"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="my-sequence">
+      <fo:single-page-master-reference master-reference="first-page"/>
+      <fo:repeatable-page-master-reference master-reference="all-pages"/>
+    </fo:page-sequence-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="my-sequence">
+    <fo:flow flow-name="xsl-region-body" font="72pt Times">
+       <fo:block space-before="2in" space-after="2in">
+         Block 1
+       </fo:block>
+       <fo:block space-before="2in" space-after="2in">
+         Block 2
+       </fo:block>
+       <fo:block space-before="2in" space-after="2in">
+         Block 3
+       </fo:block>
+       <fo:block space-before="2in" space-after="2in">
+         Block 4
+       </fo:block>
+       <fo:block space-before="2in" space-after="2in">
+         Block 5
+       </fo:block>
+       <fo:block space-before="2in" space-after="2in">
+         Block 6
+       </fo:block>
+       <fo:block space-before="2in" space-after="2in">
+         Block 7
+       </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>
+
